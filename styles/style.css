@@ -1,43 +1,44 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-#container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(255, 160, 36);
-    padding: 20px;
-    border-radius: 20px;
-    border: 5px solid black;
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 160, 36);
+  padding: 20px;
+  border-radius: 20px;
+  border: 5px solid black;
 }
 
-#display{
-    width: 310px;
-    background-color: rgb(28, 179, 171);
-    padding: 30px;
-    margin: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    overflow-wrap: break-word;
+#display {
+  width: 310px;
+  background-color: rgb(28, 179, 171);
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  overflow-wrap: break-word;
 }
 
-.keyboard{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 2px;
-    padding: 10px;
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2px;
+  padding: 10px;
 }
 
-.keyboard button{
-    background-color: rgb(221, 209, 37);
-    width: 70px;
-    height: 70px;
-    border-radius: 10px;
-    font-size: 20px;
+.keyboard button {
+  background-color: rgb(221, 209, 37);
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  font-size: 20px;
 }
